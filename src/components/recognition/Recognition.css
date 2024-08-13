@@ -1,0 +1,60 @@
+  
+.section-container {
+    flex-direction: column;
+
+    .section-content {
+        border: none;
+    }
+}
+
+.section {
+    .section-content {
+        .recognition {
+            max-width: 800px;
+            padding: 20px;
+            text-align: left;
+            margin: 0 20px;
+        
+            .recognition-text {
+                font-size: 1.2em;
+                color: #8090ac;
+                margin-bottom: 20px;
+            }
+        
+            .info-text {
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+
+                p {
+                    margin: 0;
+                    width: 200px;
+
+                    &.recognition-author {
+                        font-size: 1.1em;
+                        font-weight: bold;
+                        color: #c2d4fb;
+                    }
+                      
+                    &.recognition-profession,
+                    &.recognition-relation {
+                        font-size: 1em;
+                        color: #c2d4fb;
+                    }
+                }
+                
+            }
+        }
+
+        .slick-dots li button:before {
+            color: #8090ac !important;
+        }          
+    }
+
+    h2 {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+        color: #ffffff;
+    }
+}
+  
